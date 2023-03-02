@@ -1,0 +1,134 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Overpass';
+}
+
+#container{
+    background-color: #141519;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#rating-box{
+    height: 400px;
+    width: 400px;
+    background-color: #1c232d;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+#icon-container{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #262f38;
+    
+}
+
+#rating-box h3{
+    font-weight: 700;
+    font-size: 24px;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 10px;
+    
+}
+
+#rating-box p{
+    color: hsl(217, 12%, 63%);
+    line-height: 1.8;
+    font-weight: 400;
+    font-size:  15px;
+    margin-bottom: 30px;
+
+}
+
+#ratings-range{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.circles{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    color: hsl(217, 12%, 63%);
+    background-color: #262f38;
+    border-radius: 100%;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.circles:hover{
+    background-color: hsl(217, 12%, 63%);
+    color: hsl(0, 0%, 100%);
+}
+
+button{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    cursor: pointer;
+    border: none;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    transition: .3s ease-out;
+    font-weight: 700;
+}
+
+button:hover{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+
+}
+
+.selected{
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(25, 97%, 53%);
+}
+
+.res-p{
+    text-align: center;
+    padding-top: 5px;
+}
+
+.res-title{
+    text-align: center;
+}
+
+#thank-you-img{
+    text-align: center;
+    margin-bottom: 25px;
+    
+}
+
+#rating_txt{
+    text-align: center;
+    width: 200px !important;
+    margin: 0 auto;
+    padding: 4px;
+    font-size: 0.875rem !important;
+    background-color: #262f38;
+    border-radius: 20px;;
+    color: hsl(25, 97%, 53%) !important;
+}
+
+
