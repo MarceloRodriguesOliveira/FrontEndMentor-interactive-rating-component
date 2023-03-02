@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://marcelorodriguesoliveira.github.io/FrontEndMentor-interactive-rating-component/
 
 ## My process
 
@@ -51,6 +51,5 @@ To see how you can add code snippets, see below:
 
 ## Author
 
-
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - https://www.frontendmentor.io/profile/MarceloRodriguesOliveira
 - Github - https://github.com/MarceloRodriguesOliveira
