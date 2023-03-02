@@ -47,8 +47,6 @@ Users should be able to:
 
 Learned to manage class toggle
 
-To see how you can add code snippets, see below:
-
 ## Author
 
 - Frontend Mentor - https://www.frontendmentor.io/profile/MarceloRodriguesOliveira
